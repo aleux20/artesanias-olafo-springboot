@@ -20,7 +20,7 @@ import lombok.Setter;
 public class CategoriaProducto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_categoria_producto")
+    @Column(name = "id_categoria")
     private Integer idCategoria;
 
     @NotBlank(message = "El nombre de la categoría es obligatorio")
